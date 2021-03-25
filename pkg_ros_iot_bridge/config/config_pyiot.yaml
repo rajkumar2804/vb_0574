@@ -1,0 +1,14 @@
+config_pyiot:
+  mqtt:
+    server_url: "broker.mqttdashboard.com"      # http://www.hivemq.com/demos/websocket-client/
+    server_port: 1883
+    topic_sub: "/eyrc/vb/isPicuTP/orders"
+    topic_pub: "eyrc/isPicuTP/ros_to_iot"
+    qos: 0
+
+    sub_cb_ros_topic: "/ros_iot_bridge/mqtt/sub"   # ROS nodes can listen to this topic to receive data from MQTT Subscription
+
+  google_apps:
+    spread_sheet_id: "AKfycbx4pShSkQLVVsz1FgxoG7BFpav1nGVlj9dHFpVwF0VwpyJH8vhjVtMd3g"           # Spreadsheet Id/Webapp Id
+    spread_sheet_id_eyantra: "AKfycbw5xylppoda-8HPjt2Tzq4ShU_Xef-Ik-hEtBPcPk0gdGw8095j4RZ7"     # eYantra Spreadsheet Id 
+
