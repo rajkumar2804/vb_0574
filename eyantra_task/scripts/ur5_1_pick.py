@@ -525,7 +525,7 @@ def main():
 
                 dispatched_paramter = update_the_dispatched_sheet( Current_order , order_dispatched)
            
-                Com.send_to_ur52( Current_order['order_id'] , 'HP' , str(dispatched_paramter) , order_dispatched , Com.get_rostime() , package_color_dic)
+                Com.send_to_ur52( str(Current_order['order_id']) , 'HP' , str(dispatched_paramter) , order_dispatched , Com.get_rostime() , str(package_color_dic))
 
                 del Icorder._orders_list[Icorder._orders_dic['HP'][0]]
                 del Icorder._orders_dic['HP'][0]
@@ -548,7 +548,7 @@ def main():
 
                 dispatched_paramter = update_the_dispatched_sheet( Current_order , order_dispatched)
 
-                Com.send_to_ur52( Current_order['order_id'] , 'MP' , str(dispatched_paramter) , order_dispatched , Com.get_rostime() , package_color_dic)
+                Com.send_to_ur52( str(Current_order['order_id']) , 'MP' , str(dispatched_paramter) , order_dispatched , Com.get_rostime() , str(package_color_dic))
 
                 del Icorder._orders_list[Icorder._orders_dic['MP'][0]]
                 del Icorder._orders_dic['MP'][0]
@@ -571,7 +571,7 @@ def main():
 
                 dispatched_paramter= update_the_dispatched_sheet( Current_order , order_dispatched )
 
-                Com.send_to_ur52( Current_order['order_id'] , 'LP' , str(dispatched_paramter) , order_dispatched , Com.get_rostime() , package_color_dic)
+                Com.send_to_ur52( str(Current_order['order_id']) , 'LP' , str(dispatched_paramter) , order_dispatched , Com.get_rostime() , str(package_color_dic))
 
                 del Icorder._orders_list[Icorder._orders_dic['LP'][0]]
                 del Icorder._orders_dic['LP'][0]
