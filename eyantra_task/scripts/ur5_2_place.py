@@ -448,7 +448,7 @@ def prefered_stoping_range( current_shipped_position , elapsed_time , dispatched
 def Initialise_plan():
 
     rp = rospkg.RosPack()
-    pkg_path = rp.get_path('practice_pkg')
+    pkg_path = rp.get_path('eyantra_task')
     arg_file_path = pkg_path + '/config/ur5_2_trajectories/'
 
     saved_plans_to_homes = { 'zero':   {'home1': 'zero_to_home1.yaml' ,  
