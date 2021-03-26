@@ -20,3 +20,13 @@ There is  a general home position for the UR5#1 arm which look like this :
 UR5#1 arm home position:
 ![ur5_1_home](https://user-images.githubusercontent.com/25104480/112609153-30f03880-8e41-11eb-9b44-c78d6e1aa6b7.png)
 
+UR5#1 Arm
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+There are three home position for UR5#2 arm:- home#1 , home#2 and home#3. UR5#2 arm choose the home position to go on the basis of the dispatched order and time elapsed between a consecutive shipping and dispatch.The home positions look like this:
+
+UR5#2 arm home position:
+
+home#1
+![ur5_2_home1](https://user-images.githubusercontent.com/25104480/112610576-dce65380-8e42-11eb-9484-2cd1fbcac96c.png)
+
+
