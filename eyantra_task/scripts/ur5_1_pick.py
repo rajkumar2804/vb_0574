@@ -210,7 +210,7 @@ class Ur5communication(object):
 
     def send_to_ur52(self , arg_id , arg_priority , arg_order , agr_dispatched , arg_time , arg_color):
         """
-        Function publish the dispatched order details on ROS Topic
+        Function publish the dispatched order details on ROS Topic '/eyrc/vb/package/inform'
         :param arg_id: Order Id
         :param arg_priority: Order Priority
         :param arg_order: Order details
@@ -462,15 +462,18 @@ def main():
     """
     Main function for processing the incoming order
     """
-
+    #Initialise the Node
     rospy.init_node('ur5_1_pick', anonymous=True)
 
-    #Wait for package to swan
+    #Wait for package to spwan
     rospy.sleep(5)
+    
     #Start communication
     Com = Ur5communication()
+    
     #Detect package on shelf
     package_color_dic = qr.detect_packages()
+    
     #Update Inventory sheet
     update_Inventory(package_color_dic)
 
@@ -502,10 +505,10 @@ def main():
     #Wait till first order
     Icorder.wait_till_first_order()
     
-
+    #Main Loop
     while not rospy.is_shutdown():
 
-        #IF dispatched order is less than order received
+        #If dispatched order is less than order received
         if order_dispatched < Icorder._order_received :
          
             #If high priority orders are available
