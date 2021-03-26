@@ -5,7 +5,7 @@ Action Server.
 """
 
 import time
-import json
+import ast
 import requests
 import paho.mqtt.client as mqtt  # import the client1
 
@@ -77,7 +77,7 @@ def http_post(spread_sheet_id, parameters):
     try:
         response = requests.get("https://script.google.com/macros/s/" +
                                 spread_sheet_id +
-                                "/exec", params=parameters)
+                                "/exec", params=ast.literal_eval(parameters))
         return response.content
     except:
         return -1
