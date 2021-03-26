@@ -544,7 +544,7 @@ def Initialise_plan():
 def main():
 
     rospy.init_node('ur5_2_place', anonymous=True)
-
+    rospy.sleep(5)
     loaded_plans = Initialise_plan()
     ur5_2 = Ur5Moveit('ur5_2')
     Dorder = DispatchedOrder()
