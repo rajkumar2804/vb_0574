@@ -10,7 +10,7 @@ This is an alternative solution to eyantra 'TASK-5/6'. Our team have submitted t
 
 Warehouse
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
-When all the models and packages are properly spawned. This is what the Gazebo environment look like:
+When all the models and packages are properly spawned. This is what the Gazebo environment should look like:
 ![Screenshot from 2021-03-26 12-35-32](https://user-images.githubusercontent.com/25104480/112604621-5e86b300-8e3c-11eb-8b54-a4d94f77908f.png)
 
 UR5#1 Arm
@@ -37,7 +37,7 @@ home#3
 
 Dashboard
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-A [dashboard](https://rajkumar2804.github.io/VB_0574_Warehouse_Dashboard/) is implemented to visualise the performance of Warehouse System. The Dashboard look like as follow:
+A [dashboard](https://rajkumar2804.github.io/VB_0574_Warehouse_Dashboard/) is implemented to visualise the performance of Warehouse System. This is how Dashboard should look like:
 ![Screenshot from 2021-03-26 15-23-47](https://user-images.githubusercontent.com/25104480/112615280-4ddc3a00-8e48-11eb-83ce-6d07c7a5fe9c.png)
 
 
