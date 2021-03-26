@@ -35,4 +35,11 @@ home#2
 home#3
 ![ur5_2_home3](https://user-images.githubusercontent.com/25104480/112611303-a957f900-8e43-11eb-9583-f9526647aa02.png)
 
+Dashboard
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+A dashboard is implemented to visualise the performance of Warehouse System. The Dashboard look like as follow:
+![Screenshot from 2021-03-26 15-23-47](https://user-images.githubusercontent.com/25104480/112615280-4ddc3a00-8e48-11eb-83ce-6d07c7a5fe9c.png)
+
+
+
 
