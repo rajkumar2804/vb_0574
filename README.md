@@ -37,7 +37,7 @@ home#3
 
 Dashboard
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-A dashboard is implemented to visualise the performance of Warehouse System. The Dashboard look like as follow:
+A [dashboard](https://rajkumar2804.github.io/VB_0574_Warehouse_Dashboard/) is implemented to visualise the performance of Warehouse System. The Dashboard look like as follow:
 ![Screenshot from 2021-03-26 15-23-47](https://user-images.githubusercontent.com/25104480/112615280-4ddc3a00-8e48-11eb-83ce-6d07c7a5fe9c.png)
 
 
