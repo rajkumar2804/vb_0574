@@ -448,7 +448,7 @@ def prefered_home_position( current_shipped_position , current_order_priority , 
 def prefered_stoping_range( current_shipped_position , elapsed_time , dispatched_order_priority):
 
     home1_range =  (0.55 , 0.45)
-    home2_range =  (0.15 , 0.08)
+    home2_range =  (0.12 , 0.02)
     home3_range =  (-0.20 , -0.30)
 
     if current_shipped_position == 'zero':
