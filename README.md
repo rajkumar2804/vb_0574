@@ -29,4 +29,10 @@ UR5#2 arm home position:
 home#1
 ![ur5_2_home1](https://user-images.githubusercontent.com/25104480/112610576-dce65380-8e42-11eb-9484-2cd1fbcac96c.png)
 
+home#2
+![ur5_2_home2](https://user-images.githubusercontent.com/25104480/112611185-83325900-8e43-11eb-8a5b-6b89e904c95b.png)
+
+home#3
+![ur5_2_home3](https://user-images.githubusercontent.com/25104480/112611303-a957f900-8e43-11eb-9583-f9526647aa02.png)
+
 
