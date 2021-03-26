@@ -12,3 +12,11 @@ Warehouse
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 When all the models and packages are properly spawned. This is what the Gazebo environment look like:
 ![Screenshot from 2021-03-26 12-35-32](https://user-images.githubusercontent.com/25104480/112604621-5e86b300-8e3c-11eb-8b54-a4d94f77908f.png)
+
+UR5#1 Arm
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+There is  a general home position for the UR5#1 arm which look like this :
+
+UR5#1 arm home position:
+![ur5_1_home](https://user-images.githubusercontent.com/25104480/112609153-30f03880-8e41-11eb-9b44-c78d6e1aa6b7.png)
+
