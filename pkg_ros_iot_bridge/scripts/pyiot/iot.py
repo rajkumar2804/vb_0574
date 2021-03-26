@@ -77,7 +77,7 @@ def http_post(spread_sheet_id, parameters):
     try:
         response = requests.get("https://script.google.com/macros/s/" +
                                 spread_sheet_id +
-                                "/exec", params=json.loads(parameters))
+                                "/exec", params=parameters)
         return response.content
     except:
         return -1
