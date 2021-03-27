@@ -376,7 +376,7 @@ def sort_plans(arg_plans):
         loaded_plans_key = list(arg_plans[0][i].keys())
         for keys in loaded_plans_key:
             list_plans = arg_plans[0][i][keys]
-            list_exec =  arg_plans[1][i][keys]
+            list_exec =  [x + y for x, y in zip(arg_plans[1][0][keys], arg_plans[1][1][keys])]
             sorted_exec = sorted(list_exec)
             for j in range(len(sorted_exec)):
                 n = list_exec.index(sorted_exec[j])
