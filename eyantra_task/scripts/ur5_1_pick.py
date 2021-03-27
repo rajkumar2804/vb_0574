@@ -490,11 +490,12 @@ def main():
 
     # Home joint angles (position over the conveyor belt)
     ur5_1_home_joint_angles = [math.radians(4),
-                               math.radians(-109),
-                               math.radians(-82),
-                               math.radians(-79),
-                               math.radians(90),
-                               math.radians(-90)]
+                              math.radians(-109),
+                              math.radians(-82),
+                              math.radians(-79),
+                              math.radians(90),
+                              math.radians(-90)]
+
 
     #Go to home position
     ur5_1.set_joint_angles(ur5_1_home_joint_angles)
