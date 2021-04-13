@@ -409,7 +409,7 @@ def update_Inventory(arg_packages):
                           "Quantity": quantity}
             #Send data to google sheet
             action_client.send_goal("http", "POST", "NA", str(parameters))
-            action_client.wait_for_goal_to_complete()
+            rospy.sleep(0.3)
 
 def update_the_dispatched_sheet(arg_processing_order, arg_no_of_dispatched_order):
     """
